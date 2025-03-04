@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(133, 136, 140);
+   margin:0 auto;
+}
+
+    .table{
+        font-weight: bold;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        display: flex;
+       flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        padding: 2%;
+        border-collapse: collapse;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+input {
+    display: block;
+    width: 80%; /* Điều chỉnh chiều rộng theo ý muốn */
+    margin: 10px auto; /* Căn giữa theo chiều ngang */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    display:block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(33, 148, 255);
+    text-align: center;
+    width:89%;
+}

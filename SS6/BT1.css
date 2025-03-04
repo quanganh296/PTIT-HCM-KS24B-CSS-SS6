@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+    
+}
+.background{
+    background-color: rgb(22, 148, 215);
+    padding: 3%;
+color:aliceblue;
+}
+.table{
+    margin: 0 auto;
+    width: 50%;
+    border-collapse: collapse;
+    align-items: center;
+}
+.footer{
+    background-color: rgba(174, 164, 164, 0.46);
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.review{
+    padding:1%;
+margin-left:auto;
+margin-right:auto;
+word-spacing: 20px;
+}
