@@ -24,13 +24,13 @@ body{
     bottom: 0;
     width: 100%;
 }
-.table{
+.table {
     text-align: center;
     background-color: rgba(174, 164, 164, 0.46);
-    padding: 1%;
+    padding: 2%;
     color: rgb(0, 0, 0);
-    position: fixed;
     width: 100%;
+    position: relative; /* Đổi từ fixed thành relative */
 }
 img{
     width: 150px;
@@ -38,32 +38,32 @@ img{
     border-radius: 50%;
 }
 .project-title {
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
-    margin-right:1350px;
-    margin-top: 200px; /* Điều chỉnh khoảng cách phía trên */
-    margin-bottom: 100px; /* Tạo khoảng cách với các ô dự án */
+    margin-left: 20px;
+    margin-top: 50px; /* Giữ khoảng cách hợp lý */
+    margin-bottom: 20px;
     display: block;
 }
 
 .project-container {
-    margin-right:600px;
     display: flex;
-    justify-content: center; /* Căn giữa các ô dự án */
-    gap: 15px; /* Khoảng cách giữa các ô dự án */
-    margin-top: 20px; /* Đẩy xuống dưới để tránh chồng lên phần giới thiệu */
-    margin-bottom: 20px; /* Khoảng cách với phần footer */
+    justify-content: center;
+    gap: 15px;
+    margin-left: 20px;
+    margin-top: 50px; /* Tăng khoảng cách để không bị chồng lên */
+    margin-bottom: 20px;
 }
 
 .project-part {
     margin-right:10px;
     background-color: #3a3a3a;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 35px;
     border-radius: 10px;
     text-align: center;
-    min-width: 150px; /* Giữ kích thước đồng đều */
+    min-width: 290px; /* Giữ kích thước đồng đều */
     font-size: 16px;
     font-weight: bold;
 }

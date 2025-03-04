@@ -4,17 +4,31 @@ body{
     
     
 }
-.background{
+.background {
+    width: 100%;
     background-color: rgb(22, 148, 215);
-    padding: 3%;
-color:aliceblue;
+    height: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue;
 }
+
 .table{
+    text-align: left; /* Căn chữ về bên trái */
+    padding-left: 10px; 
     margin: 0 auto;
+    margin-top:20px;
     width: 50%;
     border-collapse: collapse;
-    align-items: center;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 50px; 
 }
+
+
 .footer{
     background-color: rgba(174, 164, 164, 0.46);
     padding: 1%;
