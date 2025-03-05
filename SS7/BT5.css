@@ -30,7 +30,7 @@ body {
 
 
 .hot-icon {
-    position: absolute;
+    position: fixed;
     top: 130px; 
     right: 760px; 
     width: 75px; 

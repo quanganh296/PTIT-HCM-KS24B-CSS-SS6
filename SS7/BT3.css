@@ -45,16 +45,19 @@ p{
 }
 
 .item img {
-    width: 50px;
-    height: 50px;
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin-right:-10px;
+    margin-top:15px;
    
 }
-.item span{
+.item span {
+    font-size: 1.5em; 
     font-weight: bold;
-    font-size: 1.2em;
-    line-height: 24px;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
+    line-height: 1; /* Tránh khoảng trắng dư thừa */
 }
 
 img {
