@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.package-card {
+    width: 320px;
+    height:650px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.package-header {
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    position: relative;
+}
+
+
+.hot-icon {
+    position: absolute;
+    top: 130px; 
+    right: 760px; 
+    width: 75px; 
+    height: auto;
+}
+
+
+
+.package-content {
+    color:rgb(108,108,108);
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    background: white;
+}
+
+.highlight {
+    font-size: 18px;
+    color: rgb(255,140,0);
+    font-weight: bold;
+}
+
+
+.package-footer {
+    padding-top: 5px;
+    margin-top: -5px;
+    background: white;
+   
+}
+
+/* Nút ĐĂNG KÝ */
+.register-btn {
+    margin-bottom: 5px; 
+    background: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Nút Chi tiết */
+.details-btn {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+    width:45%;
+    padding: 10px;
+}
+
+.info-line {
+    display: block; 
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 2px; 
+    margin-bottom: 2px; 
+    line-height: 1.4; }

@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245,244,247);
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Dàn đều 4 ô trên một hàng ngang */
+    align-items: center;
+
+    gap: 20px; /* Khoảng cách giữa các ô */
+    padding: 20px;
+}
+
+.decor {
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 350px; /* Điều chỉnh kích thước để vừa 4 ô trên một hàng */
+    height: 160px;
+    border: 1px solid rgb(193, 188, 209);
+    border-radius: 5px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    color: rgb(188,34,41);
+}
+p{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+    color: rgb(35,23,81);
+}
