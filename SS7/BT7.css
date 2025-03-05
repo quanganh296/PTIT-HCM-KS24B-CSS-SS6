@@ -1,119 +1,99 @@
-/* Ảnh nền */
+
+/* Thiết lập nền */
 body {
-    font-family: Arial, sans-serif;
     background: url('https://vtcpay.vn/blog/wp-content/uploads/2021/09/cach-build-hu-tao-dps-3-scaled.jpg') no-repeat center center fixed;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Modal mặc định hiện */
+/* Modal box */
 .modal {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Khi bấm "X", modal sẽ ẩn */
-.modal:has(.close-btn:active) {
-    display: none;
-     
-}
-
-/* Nội dung modal */
-.modal-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: white;
-    width: 400px;
-    border-radius: 8px;
     padding: 20px;
-    position: relative;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: block; /* Hiện mặc định */
 }
 
-/* Header */
+/* Tiêu đề */
 .modal-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
 }
 
-/* Dấu X */
+/* Nút đóng (X) */
 .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
     cursor: pointer;
-    color: #6c757d;
-    font-weight: bold;
 }
 
 .close-btn:hover {
     color: red;
 }
 
-/* Input Group */
-.input-group {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.input-group label {
+/* Nội dung form */
+.modal-body label {
+    display: block;
     font-weight: bold;
-    flex-basis: 30%;
-}
-
-.input-group input,
-.input-group textarea {
-    width: 65%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Footer */
-.modal-footer {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 10px;
 }
 
-.close-button, .send-button {
-    padding: 8px 15px;
+.modal-body input,
+.modal-body textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 10px;
-    cursor: pointer;
+    font-size: 14px;
 }
 
-.close-button {
+.modal-body textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Footer với nút */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.close {
     background: #6c757d;
     color: white;
 }
 
-.send-button {
+.send {
     background: #007bff;
     color: white;
 }
 
-.close-button:hover {
-    background: #5a6268;
-}
-
-.send-button:hover {
-    background: #0056b3;
+/* Khi ẩn modal */
+.hidden {
+    display: none;
 }

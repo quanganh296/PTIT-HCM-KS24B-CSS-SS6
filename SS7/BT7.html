@@ -3,32 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modal Hiện Khi Mở Trang</title>
-    <link rel="stylesheet" href="BT7.css">
+    <title>Modal Box</title>
+<link rel="stylesheet" href="BT7.css">
 </head>
 <body>
 
-    <!-- Modal -->
-    <div class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span>New message to @mdo</span>
-                <span class="close-btn">&times;</span> 
-            </div>
-            <div class="modal-body">
-                <div class="input-group">
-                    <label>Recipient:</label>
-                    <input type="text" value="@mdo" readonly>
-                </div>
-                <div class="input-group">
-                    <label>Message:</label>
-                    <textarea rows="4"></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <span class="close-button">Close</span>
-                <a href="#" class="send-button">Send message</a>
-            </div>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <span>New message to @mdo</span>
+            <button class="close-btn" onclick="document.getElementById('modal').classList.add('hidden')">×</button>
+        </div>
+        <div class="modal-body">
+            <label>Recipient:</label>
+            <input type="text" value="@mdo" readonly>
+            <label>Message:</label>
+            <textarea></textarea>
+        </div>
+        <div class="modal-footer">
+            <button class="button close" onclick="document.getElementById('modal').classList.add('hidden')">Close</button>
+            <button class="button send">Send message</button>
         </div>
     </div>
 
