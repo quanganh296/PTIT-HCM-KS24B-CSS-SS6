@@ -1,0 +1,87 @@
+/* Áp dụng khoảng cách giữa các dòng */
+.main1 p, .main2 p, .main1 h2, .main1 h3, .main2 h2, .main2 h3 {
+    line-height: 1.8;  /* Tăng khoảng cách dòng */
+    margin-bottom: 15px; /* Cách mỗi đoạn một khoảng rộng hơn */
+    display: block; /* Đảm bảo xuống dòng đúng */
+}
+
+/* Đảm bảo layout chính giữ nguyên */
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Định dạng container chính */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Định dạng phần nội dung chính */
+.main1, .main2 {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Đưa footer xuống cuối trang */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    width: 100%;
+    margin-top: auto;  /* Đẩy footer xuống cuối */
+}
+
+/* Header */
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Khoảng cách giữa các mục menu */
+.nav-menu {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa Home, About, Post, Contact */
+}
+
+/* Nếu không dùng flex, có thể dùng margin-right */
+.nav-menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Đảm bảo mục cuối cùng không bị margin thừa */
+.nav-menu a:last-child {
+    margin-right: 0;
+}
+
+/* Căn chỉnh tiêu đề của header */
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-left: 50px;
+}

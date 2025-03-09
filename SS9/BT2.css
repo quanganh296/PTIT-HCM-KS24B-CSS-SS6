@@ -1,0 +1,30 @@
+.bigbox { 
+    width: 1200px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    gap: 10px;
+    border:1px solid black;
+}
+
+.box1, .box2 {
+    display: flex;
+    align-items: center;
+    background-color: #2ECC71; 
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    width: 200px; 
+   height:90px;
+   color:#F1F1F1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box1, .box2 {
+    flex-basis: calc(25% - 10px); 
+}

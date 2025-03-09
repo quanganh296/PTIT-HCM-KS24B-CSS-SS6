@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3498DB;
+    color:aliceblue;
+    width:150px;
+    height:150px;
+}
+.bigbox{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border:3px solid;
+    height:700px;
+    width:1000px;
+}

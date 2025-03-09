@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.first, .second {
+    display: flex;
+    justify-content: space-between;
+}
+.first {
+    display: flex;
+    justify-content: flex-start; /* Căn trái */
+    gap: 20px; /* Khoảng cách nhỏ */
+}
+.second {
+    display: flex;
+    justify-content: space-between; /* Căn trái */
+    gap: 740px; /* Khoảng cách nhỏ */
+}
+.box1 {
+    padding: 30px;
+    width: 100px;
+    background-color: #800080;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.box2 {
+    padding: 30px;
+    width:100px;
+    background-color: #800080;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}

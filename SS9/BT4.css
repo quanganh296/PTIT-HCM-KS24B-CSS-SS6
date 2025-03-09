@@ -1,0 +1,34 @@
+.header{
+    color: aliceblue;
+    background-color: #308CCA;
+    padding:15px;
+}
+.sidebar{
+    color: aliceblue;
+    margin-top:10px;
+background-color:#2ABC68;
+width:385.6px;
+height:550px;
+padding:3px;
+}
+.content{
+    color: aliceblue;
+    margin-top:10px;
+    background-color:#D54637;
+    width:1600px;
+    height:536px;
+    padding:10px;
+margin-left:2px;
+}
+.footer{
+    color: aliceblue;
+    padding:10px;
+    background-color: #8F52A8;
+    margin-top:9px;
+
+}
+.container {
+    display: flex; /* Đưa Sidebar và Content lên cùng hàng */
+    gap: 10px; /* Khoảng cách giữa Sidebar và Content */
+    margin-top: 10px;
+}
