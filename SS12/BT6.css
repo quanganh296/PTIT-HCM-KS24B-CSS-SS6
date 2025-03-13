@@ -1,0 +1,21 @@
+    .pricing-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px 10px;
+        text-align: center;
+        width: 350px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        background: white;
+        margin:10px;
+    }
+    .highlight {
+        background-color: gold;
+    }
+    .btn-custom {
+        width: 90%;
+        background-color: blue;
+        color: white;
+    }
+    h2 {
+        text-align: center;
+    }

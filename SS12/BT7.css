@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width:100vh;
+}
+.card {
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Đẩy nội dung lên trên */
+    padding-top: 10px; /* Thêm khoảng cách từ trên xuống */
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+hr{
+    width:100vh;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

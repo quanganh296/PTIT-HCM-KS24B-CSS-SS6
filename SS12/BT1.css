@@ -1,0 +1,30 @@
+.dropdown-toggle {
+    background-color: #f45b42 !important;
+    color: white !important;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.dropdown-toggle:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-toggle:active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.dropdown-menu {
+    background-color: #f45b42 !important;
+    border: none !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    background-color: #0d6efd !important;
+}
